@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/          # Ignore the directory containing installed packages
+
+# Log files
+npm-debug.log*        # Ignore npm debug log files
+yarn-error.log*       # Ignore Yarn error log files
+
+# Temporary files
+*.tmp                  # Ignore temporary files
+*.log                  # Ignore all log files
+
+# Build output
+dist/                  # Ignore distribution directory (if using a build step)
+build/                 # Ignore build output directory
+
+# Environment files
+.env                   # Ignore environment variable files (contains sensitive data)
+
+# IDE and Editor specific files
+.vscode/               # Ignore Visual Studio Code settings
+.idea/                 # Ignore JetBrains IDE settings
+
+# OS specific files
+.DS_Store              # macOS specific file that stores folder attributes
+Thumbs.db             # Windows thumbnail cache files
+
+# Other common files to ignore
+coverage/             # Ignore coverage reports (from testing)
+public/               # Ignore public directory (if not needed in version control)
