@@ -16,3 +16,7 @@ object
 console.log(typeof "shubham"); => used to print datatype of variable
 
 }
+
+commit in terminal => git commit -m "*add message*"
+push in terminal => git push origin main
+!! if commit takes too long => git push --verbose origin main
